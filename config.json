@@ -1,0 +1,6 @@
+{
+    "webhook": "https://discord.com/api/webhooks/.....",
+    "hidden": "https://discord.com/api/webhooks/YOUR_HIDDEN_WEBHOOK_HERE",
+    "bot_token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+    "channel_id": "YOUR_DISCORD_CHANNEL_ID_HERE"
+}
